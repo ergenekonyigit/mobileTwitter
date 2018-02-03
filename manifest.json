@@ -1,0 +1,22 @@
+{
+  "name": "mobileTwitter",
+  "short_name": "mobileTwitter",
+  "description":
+    "This extension makes your browser load twitter content from mobile.twitter.com instead of twitter.com",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/mobileTwitter_icon_19.png"
+  },
+  "icons": {
+    "16": "icons/mobileTwitter_icon_16.png",
+    "19": "icons/mobileTwitter_icon_19.png",
+    "38": "icons/mobileTwitter_icon_38.png",
+    "48": "icons/mobileTwitter_icon_48.png",
+    "128": "icons/mobileTwitter_icon_128.png"
+  },
+  "permissions": ["*://twitter.com/*", "webRequest", "webRequestBlocking"]
+}
